@@ -1,5 +1,5 @@
 ---
-title: test
+title: test2
 intro: hello world
-image: assets/dd01-272.jpg
+image: assets/main_image_6.jpg
 ---
