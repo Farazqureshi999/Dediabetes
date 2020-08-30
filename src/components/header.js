@@ -1,42 +1,66 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import React from 'react'
+import logo from '../images/logo2.jpg'
+import { Link } from 'gatsby'
+import {BiSearch} from 'react-icons/bi'
+import {FaFacebookSquare,FaTwitterSquare} from 'react-icons/fa'
+function header() {
+    return (
+        <header>
+            <div className="topBar">
+                <div className="container">
+                    <div className="d-flex justify-md-content-end justify-content-center align-items-center">
+                        <ul className="social-icons-list">
+                           <li className="social-icon"><a target="_blank" rel="noreferrer" href="https://www.facebook.com/tratamientodiabetes" ><FaFacebookSquare className="icon-white" aria-label="facebook"/></a></li> 
+                           <li className="social-icon"><a target="_blank" rel="noreferrer" href="https://twitter.com/dediabetescom"><FaTwitterSquare className="icon-white" aria-label="twitter"/></a></li> 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div className="middlebar shadow-sm">
+                <div className="container">
+                    <div className="middle-nav">
+                    <nav className="main-nav">
+                        <ul className="main-nav-list">
+                            <li className="main-nav-item"><Link className="main-nav-link" to="/" activeClassName="link-active">Start</Link></li>
+                            <li className="main-nav-item"><Link className="main-nav-link">What is the Diabetes</Link></li>
+                            <li className="main-nav-item"><Link className="main-nav-link">Diabetes Treatment</Link></li>
+                            <li className="main-nav-item"><Link className="main-nav-link">Products</Link></li>
+                             
+                        </ul>
+                    </nav>
+                    <div className="search-box">
+                    <BiSearch/>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div className="mobile-header d-block d-md-none">
+                <div className="container">
+                    <div className="d-flex justify-content-between align-items-center header-bar">
+                    <div class="menu btn12" data-menu="12">
+                    <div class="icon"></div>
+                </div>
+                  
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+                    <div className="search-box">
+                    <BiSearch className="searchIcon"/>
+                    </div>
+                    </div>
+                    
+                </div>
+                <div className="mobile-header-menu">
+                    s
+                </div>
+            </div>
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
+            <div className="BottomBar d-flex justify-content-center align-items-center">
+             
+                        <img src={logo} alt="logo" className="img-fluid mx-auto"/>
+                 
+               
+            </div>
+        </header>
+    )
 }
 
-Header.defaultProps = {
-  siteTitle: ``,
-}
-
-export default Header
+export default header
