@@ -23,7 +23,7 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Type", name: "type" , widget: "select" , options: ["post", "recipe", "ebook"]}
 
-collections:
+
   - name: "recipe"
     label: "Recipe"
     folder: "src/pages/recipe"
@@ -41,16 +41,15 @@ collections:
       - {label: Tags, name: tags, widget: list}
       - {label: Type, name: type, widget: select, options: ["post", "recipe", "ebook"]}
 
-collections:
-    - name: "ebook"
-      label: "Ebook"
-      folder: "src/pages/ebook"
+
+    - name: "products"
+      label: "Products"
+      label_singular: "Product"
+      folder: "src/pages/products"
       create: true
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
       fields:
-        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "ebook-post"}
-        - {label: Title, name: title, widget: string}
-        - {label: Publish Date, name: date, widget: datetime}
-        - {label: Intro, name: intro, widget: object, fields: [{label: Intro List, name: intro-list, widget: list, fields: [{label: Image, name: image, widget: image}, {label: Text, name: text, widget: text}]}]}
-        - {label: Tags, name: tags, widget: list}
-        - {label: Type, name: type, widget: select, options: ["post", "recipe", "ebook"]}
+        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "product-page.template"}
+        - {label: "Name", name: "title", widget: "string"}
+        - {label: "Image", name: "image", widget: "image"}
+        - {label: "Description", name: "description", widget: "string"}
+        - {label: "Ingredients", name: "ingredients", widget: "list"}
