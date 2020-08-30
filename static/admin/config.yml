@@ -23,21 +23,21 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Type", name: "type" , widget: "select" , options: ["post", "recipe", "ebook"]}
 
-# collections:
-#   - name: "recipe"
-#     label: "Recipe"
-#     folder: "src/pages/recipe"
-#     create: true
-#     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-#     fields:
-#       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "recipe-post"}
-#       - {label: "Title", name: "title", widget: "string"}
-#       - {label: "Publish Date", name: "date", widget: "datetime"}
-#       - {label: "Total Time", name: "time", widget: "string"}
-#       - {label: "Servings", name: "servings", widget: "string"}
-#       - {label: "Calories", name: "calories", widget: "string"}
-#       - {label: "Description", name: "description", widget: "text"}
-#       - {label: "Featured Image", name: "featuredimage", widget: image}
-#       - {label: "Description", name: "description", widget: "text"}
-#       - {label: "Tags", name: "tags", widget: "list"}
-#       - {label: "Type", name: "type", widget: "select", options: ["post", "recipe", "ebook"]}
+collections:
+  - name: "recipe"
+    label: "Recipe"
+    folder: "src/pages/recipe"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "recipe-post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Total Time", name: "time", widget: "string"}
+      - {label: "Servings", name: "servings", widget: "string"}
+      - {label: "Calories", name: "calories", widget: "string"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Featured Image", name: "featuredimage", widget: image}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Type", name: "type", widget: "select", options: ["post", "recipe", "ebook"]}
