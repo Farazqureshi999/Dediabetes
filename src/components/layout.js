@@ -13,7 +13,7 @@ import "./css/layout.css"
 import './js/main.js'
 
 
-import Header from './Header';
+import Header from './header';
 import Footer from './Footer';
 
 const Layout = ({ children }) => {
