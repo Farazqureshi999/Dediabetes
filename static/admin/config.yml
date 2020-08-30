@@ -38,6 +38,5 @@ collections:
       - {label: Calories, name: "calories", widget: string}
       - {label: Description, name: "description", widget: text}
       - {label: Featured Image, name: featuredimage, widget: image}
-      - {label: Description, name: description, widget: text}
       - {label: Tags, name: tags, widget: list}
       - {label: Type, name: type, widget: select, options: ["post", "recipe", "ebook"]}
