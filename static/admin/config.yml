@@ -4,8 +4,8 @@ backend:
     name: github
     repo: Farazqureshi999/Dediabetes
 
-media_folder: static/assets
-public_folder: /assets
+media_folder: static/image
+public_folder: /image
 
 collections:
   - name: "blog"
