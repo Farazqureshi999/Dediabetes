@@ -21,7 +21,7 @@ collections:
       - {label: "Featured Post", name: "featuredpost", widget: "boolean", default: false}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Tags", name: "tags", widget: "list"}
-     - {label: "Type" name: "type" widget: "select" options: ["post", "recipe", "ebook"]}
+      - {label: "Type" name: "type" widget: "select" options: ["post", "recipe", "ebook"]}
 
 collections:
   - name: "recipe"
