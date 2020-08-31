@@ -36,7 +36,7 @@ collections:
       - {label: Total Time, name: time, widget: string}
       - {label: "Servings", name: "servings", widget: string}
       - {label: Calories, name: "calories", widget: string}
-      - {label: Description, name: "description", widget: text}
+      - {label: Description, name: "description", widget: markdown}
       - {label: Featured Image, name: featuredimage, widget: image}
       - {label: Tags, name: tags, widget: list}
       - {label: Type, name: type, widget: select, options: ["post", "recipe", "ebook"]}
@@ -47,14 +47,10 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "recipe-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "ebook-post"}
       - {label: Title, name: title, widget: string}
       - {label: Publish Date, name: date, widget: datetime}
-      - {label: Total Time, name: time, widget: string}
-      - {label: "Servings", name: "servings", widget: string}
-      - {label: Calories, name: "calories", widget: string}
-      - {label: Description, name: "description", widget: text}
-      - {label: Featured Image, name: featuredimage, widget: image}
+      - {label: Intro, name: intro, widget: markdown}
       - {label: Tags, name: tags, widget: list}
       - {label: Type, name: type, widget: select, options: ["post", "recipe", "ebook"]}
  
