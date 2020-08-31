@@ -1,8 +1,10 @@
 ---
 templateKey: blog-post
 title: "Type 1 Diabetes and Pregnancy: How You Should Take Care of Yourself"
+postslug: Diabetes and Pregnancy
 date: 2020-08-31T07:23:06.013Z
 author: Leo
+featuredimage: /image/diabetes-tipo-1-y-embarazo-1068x712.jpg
 description: >-
   <!--StartFragment-->
 
@@ -66,7 +68,9 @@ description: >-
 
   <!--EndFragment-->
 featuredpost: false
-featuredimage: /image/diabetes-tipo-1-y-embarazo-1068x712.jpg
+postimage:
+  featuredimage: /image/diabetes-tipo-1-y-embarazo-1068x712.jpg
+  alttext: Diabetes and Pregnancy
 tags:
   - What is the diabetes
 type: post
