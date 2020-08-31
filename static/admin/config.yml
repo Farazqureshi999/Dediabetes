@@ -38,7 +38,7 @@ collections:
       - {label: "Servings", name: "servings", widget: string}
       - {label: Calories, name: "calories", widget: string}
       - {label: Description, name: "description", widget: markdown}
-      - {label: Featured Image, name: featuredimage, widget: image}
+      - {label: Post Image, name: postimage, widget: object, fields: [{label: Featured Image, name: featuredimage, widget: image},{label: Alt Test, name: alttext, widget: string}]}
       - {label: Tags, name: tags, widget: list}
       - {label: Type, name: type, widget: select, options: ["post", "recipe", "ebook"]}
 

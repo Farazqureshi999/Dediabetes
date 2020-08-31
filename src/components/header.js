@@ -8,7 +8,7 @@ function header() {
         <header>
             <div className="topBar">
                 <div className="container">
-                    <div className="d-flex justify-md-content-end justify-content-center align-items-center">
+                    <div className="d-flex  justify-content-center justify-content-md-end align-items-center">
                         <ul className="social-icons-list">
                            <li className="social-icon"><a target="_blank" rel="noreferrer" href="https://www.facebook.com/tratamientodiabetes" ><FaFacebookSquare className="icon-white" aria-label="facebook"/></a></li> 
                            <li className="social-icon"><a target="_blank" rel="noreferrer" href="https://twitter.com/dediabetescom"><FaTwitterSquare className="icon-white" aria-label="twitter"/></a></li> 
@@ -55,7 +55,7 @@ function header() {
 
             <div className="BottomBar d-flex justify-content-center align-items-center">
              
-                        <img src={logo} alt="logo" className="img-fluid mx-auto"/>
+                <Link to="/">  <img src={logo} alt="logo" className="img-fluid mx-auto"/></Link>
                  
                
             </div>
