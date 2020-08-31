@@ -5,8 +5,15 @@ const path = require('path');
 exports.onCreateNode = ({node, actions}) =>{
     const {createNodeField} = actions
     if (node.internal.type === 'MarkdownRemark'){
-        const str = node.frontmatter.postslug
-        const slugTitle = str.replace(/ +/g, "-");
+        const str = node.frontmatter.postslug;
+        const slugTitle;
+        if (/\s/.test(str)) {
+          slugTitle = str.replace(/ +/g, "-");
+        }
+        else{
+          slugTitle = str;
+        }
+        
         createNodeField({
             node,
             name: 'slug',
