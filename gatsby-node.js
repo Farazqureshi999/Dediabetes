@@ -6,7 +6,7 @@ exports.onCreateNode = ({node, actions}) =>{
     const {createNodeField} = actions
     if (node.internal.type === 'MarkdownRemark'){
         const str = node.frontmatter.postslug;
-        const slugTitle;
+        const slugTitle=" ";
         if (/\s/.test(str)) {
           slugTitle = str.replace(/ +/g, "-");
         }
