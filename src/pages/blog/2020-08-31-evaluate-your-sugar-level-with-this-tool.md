@@ -1,8 +1,10 @@
 ---
 templateKey: blog-post
 title: Evaluate your Sugar Level with this Tool
+postslug: Evaluate your Sugar Level with this Tool
 date: 2020-08-31T07:31:43.263Z
 author: DeDiabetes
+featuredimage: /image/evalua-nivel-azucar-1068x711.jpg
 description: >-
   <!--StartFragment-->
 
@@ -34,7 +36,9 @@ description: >-
 
   <!--EndFragment-->
 featuredpost: false
-featuredimage: /image/evalua-nivel-azucar-1068x711.jpg
+postimage:
+  alttext: Evaluate your Sugar Level with this Tool
+  featuredimage: /image/evalua-nivel-azucar-1068x711.jpg
 tags:
   - Diabetes
 type: post
