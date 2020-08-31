@@ -5,7 +5,6 @@ import Layout from '../components/layout'
 function post(props) {
     
     return (
-        
         <Layout>
          hello
         </Layout>
