@@ -2,6 +2,7 @@
 templateKey: blog-post
 title: "Type 1 Diabetes and Pregnancy: How You Should Take Care of Yourself"
 date: 2020-08-31T07:23:06.013Z
+author: Leo
 description: >-
   <!--StartFragment-->
 
