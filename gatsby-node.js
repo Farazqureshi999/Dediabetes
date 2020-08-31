@@ -8,16 +8,22 @@ exports.onCreateNode = ({node, actions}) =>{
         const str = node.frontmatter.postslug;
         if (/\s/.test(str)) {
           const slugTitle = str.replace(/ +/g, "-");
+          createNodeField({
+            node,
+            name: 'slug',
+            value: slugTitle
+        })
         }
         else{
           const slugTitle = str;
-        }
-        
-        createNodeField({
+          createNodeField({
             node,
             name: 'slug',
-            value:slugTitle
+            value: slugTitle
         })
+        }
+        
+      
     }
 }
 
