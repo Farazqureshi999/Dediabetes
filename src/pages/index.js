@@ -12,7 +12,7 @@ import Sidebar from '../components/Sidebar'
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Dediabetes" />
     <div className="container">
     <div className="main-post-grid">
         <div className="div1 main-post-box">
