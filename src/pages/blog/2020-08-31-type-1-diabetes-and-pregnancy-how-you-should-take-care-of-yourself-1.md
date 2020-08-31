@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: "Type 1 Diabetes and Pregnancy: How You Should Take Care of Yourself"
+title: "Type 1 Diabetes and Pregnancy How You Should Take Care of Yourself"
 postslug: diabetes-tipo-1-embarazo-como-debes-cuidarte
 date: 2020-08-31T09:05:23.359Z
 author: DeDiabetes
