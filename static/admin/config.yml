@@ -17,7 +17,7 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Description", name: "description", widget: "markdown"}
       - {label: "Featured Post", name: "featuredpost", widget: "boolean", default: false}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Tags", name: "tags", widget: "list"}
@@ -54,6 +54,7 @@ collections:
       - {label: Book Info, name: book-info, widget: object, fields: [{label: Book Image, name: bookImage, widget: image},{label: Highlights, name: highlight, widget: markdown}]}
       - {label: Basic Price, name: basic-price, widget: object, fields: [{label: Price Plan, name: price-plan, widget: string},{label: Price, name: price, widget: number},{label: Menu Duration, name: menu-duration, widget: string},{label: Features, name: feature, widget: markdown}]}
       - {label: Premium Price, name: premium-price, widget: object, fields: [{label: Price Plan, name: price-plan, widget: string},{label: Price, name: price, widget: number},{label: Menu Duration, name: menu-duration, widget: string},{label: Features, name: feature, widget: markdown}]}
+      - {label: Book File, name: file, widget: file}
       - {label: Tags, name: tags, widget: list}
       - {label: Type, name: type, widget: select, options: ["post", "recipe", "ebook"]}
  
