@@ -32,11 +32,13 @@ function BlogPostTemplate({data}) {
               <div className="container">
               <div className="row">
               <div className="col-md-8">
-              <div class="post-meta-catagory"><a href="#" class="black-badge text-uppercase">{tags}</a></div>
-                <h1>{title}</h1>
-                <p>By <span>{author}</span> - <span>{date}</span></p>
-                <img src={featuredimage} alt={alttext} className="img-fluid"/>
-                <p>{description}</p>
+              <div className="post-page-block mb-4">
+              <div className="post-meta-catagory"><a href="#" class="black-badge text-uppercase">{tags}</a></div>
+                <h1 className="post-page-title">{title}</h1>
+                <p className="post-page-sub">By <span className="post-page-author">{author}</span> - <span className="post-page-date">{date}</span></p>
+                <img src={featuredimage} alt={alttext} className="img-fluid my-4"/>
+                <p className="post-page-description">{description}</p>
+              </div>
               </div>
               <div className="col-md-4">
                 <Sidebar/>
