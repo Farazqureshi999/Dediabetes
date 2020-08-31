@@ -6,22 +6,20 @@ exports.onCreateNode = ({node, actions}) =>{
     const {createNodeField} = actions
     if (node.internal.type === 'MarkdownRemark'){
         const str = node.frontmatter.title;
+        console.log(str);
+        let slugTitle = " ";
         if (/\s/.test(str)) {
-          const slugTitle = str.replace(/ +/g, "-");
-          createNodeField({
-            node,
-            name: 'slug',
-            value: slugTitle
-        })
+          slugTitle = str.replace(/ +/g, "-");
         }
         else{
-          const slugTitle = str;
-          createNodeField({
-            node,
-            name: 'slug',
-            value: slugTitle
-        })
+          slugTitle = str;
+        
         }
+        createNodeField({
+          node,
+          name: 'slug',
+          value: slugTitle
+      })
         
       
     }

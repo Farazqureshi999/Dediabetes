@@ -32,7 +32,7 @@ function BlogPostTemplate({data}) {
               <div className="container">
               <div className="row">
               <div className="col-md-8">
-                <p>{tags}</p>
+              <div class="post-meta-catagory"><a href="#" class="black-badge text-uppercase">{tags}</a></div>
                 <h1>{title}</h1>
                 <p>By <span>{author}</span> - <span>{date}</span></p>
                 <img src={featuredimage} alt={alttext} className="img-fluid"/>
