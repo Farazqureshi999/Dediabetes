@@ -1,8 +1,10 @@
 ---
 templateKey: blog-post
 title: Guide on Type 2 Diabetes
+postslug: Guide on Type 2 Diabetes
 date: 2020-08-31T07:29:51.825Z
 author: " DeDiabetes"
+featuredimage: /image/guia-sobre-diabetes-tipo-2-696x465.jpg
 description: >-
   <!--StartFragment-->
 
@@ -69,7 +71,7 @@ description: >-
   ## Prevention
 
 
-  ![type 2 diabetes guide # 2](https://273468-851740-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2018/04/guia-sobre-diabetes-tipo-2-1.jpg)
+  ![type 2 diabetes guide # 2](https://273468-851740-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2018/04/guia-sobre-diabetes-tipo-2-1.jpg "Guide on Type 2 Diabetes")
 
 
   It is not always possible to prevent the onset of the disease, since, as we mentioned in the previous section, some of the risk factors are beyond the control of the patient. However, there are steps that can be taken to delay and even prevent type 2 diabetes. Lifestyle changes are essential in preventing this condition. Following a balanced diet and regular physical activity helps control body weight while maintaining adequate sugar levels.
@@ -113,7 +115,9 @@ description: >-
 
   <!--EndFragment-->
 featuredpost: false
-featuredimage: /image/guia-sobre-diabetes-tipo-2-696x465.jpg
+postimage:
+  featuredimage: /image/guia-sobre-diabetes-tipo-2-696x465.jpg
+  alttext: Guide on Type 2 Diabetes
 tags:
   - diabetes
 type: post
