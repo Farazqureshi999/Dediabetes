@@ -42,12 +42,12 @@ collections:
       - {label: Type, name: type, widget: select, options: ["post", "recipe", "ebook"]}
 
 
-  - name: "products"
-      label: "Products"
-      label_singular: "Product"
-      folder: "src/pages/products"
-      create: true
-      fields:
-        - {label: "Image", name: "image", widget: "image"}
-        - {label: "Description", name: "description", widget: "string"}
-        - {label: "Ingredients", name: "ingredients", widget: "list"}
+  # - name: "products"
+  #     label: "Products"
+  #     label_singular: "Product"
+  #     folder: "src/pages/products"
+  #     create: true
+  #     fields:
+  #       - {label: "Image", name: "image", widget: "image"}
+  #       - {label: "Description", name: "description", widget: "string"}
+  #       - {label: "Ingredients", name: "ingredients", widget: "list"}
